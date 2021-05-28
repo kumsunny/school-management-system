@@ -1,0 +1,19 @@
+ $feature-flags: (
+    ui-shell: true,
+    grid-columns-16: true,
+  );
+  @import "./mixins";
+  @import 'carbon-components/scss/globals/scss/styles.scss';
+  body {
+    margin: 0;
+    @include landing-page-background;
+    font-family: carbon--font-family("sans");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  

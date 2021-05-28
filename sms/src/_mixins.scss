@@ -1,0 +1,16 @@
+ @import "@carbon/themes/scss/themes";
+ $carbon--theme: $carbon--theme--g10;
+ @include carbon--theme();
+ @import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+ @import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+ @import "carbon-components/scss/globals/scss/typography.scss";
+ @import "carbon-components/scss/globals/scss/vars.scss";
+ @import "@carbon/type/scss/font-face/sans";
+ @import "@carbon/type/scss/font-family";
+ @include carbon--font-face-sans();
+ @mixin landing-page-background() {
+     background-color: $ui-background;
+ }
+ @mixin  welcome-3-background {
+     background-color: $ui-05;
+ }

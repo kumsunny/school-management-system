@@ -1,0 +1,10 @@
+@import "../../mixins";
+.mg-top{
+    margin-top: $layout-01;
+}
+.mg-bottom{
+    margin-bottom: $layout-01*5;
+}
+.bx--dropdown__wrapper{
+    width: 100%;
+}
